@@ -1,0 +1,4 @@
+hello I am from the earth..
+I am learning Python.
+I liked Python very much.
+It is simple and very powerful..
