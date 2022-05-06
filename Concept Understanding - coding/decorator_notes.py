@@ -1,11 +1,11 @@
 # notes:-
 
-# a function can take another "function name" as a parameter.
+# In the decorator concept, a function takes another "function name" as a parameter.
+# Only the "function name" is used as a parameter inside another function in this concept. We are not calling the function in the parameter, we are only using the name of the function as a parameter in another function.
 # a function can be defined and called inside the another function.
 # function name can be assigned to another variable.
 # when a function name is sent inside the another function, then the functionality of the major function changes/lost.
 
-# paranthesis can not be used at the parameter of a function.
 
 """
 def my_major_func(shiva):
@@ -42,7 +42,7 @@ func_needs_decorator()
 """
 
 
-def new_decorator(shiva):
+def new_decorator(shiva):  # we didn't call the "shiva()" function in the parameter, we used only the "function name shiva".
 
     def wrap_func():
         print("code here before executing the func")
