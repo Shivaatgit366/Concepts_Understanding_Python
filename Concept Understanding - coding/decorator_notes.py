@@ -1,7 +1,7 @@
 # notes:-
 
 # In the decorator concept, a function takes another "function name" as a parameter.
-# Only the "function name" is used as a parameter inside another function in this concept. We are not calling the function in the parameter, we are only using the name of the function as a parameter in another function.
+# In this concept, only the "function name" is used as a parameter inside another function. We are not calling the function in the parameter, we are only using the name of the function as a parameter in another function.
 # a function can be defined and called inside the another function.
 # function name can be assigned to another variable.
 # when a function name is sent inside the another function, then the functionality of the major function changes/lost.
